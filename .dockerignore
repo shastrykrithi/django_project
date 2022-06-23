@@ -1,0 +1,16 @@
+# files to exclude that docker doesn't need to be concerned with
+# git
+.git
+.gitignore
+
+# docker
+.docker
+
+# python
+app/_pycache_/
+app/*/_pycache_/
+app/*/*/_pycache_/
+app/*/*/*/_pycache_/
+.env/
+.venv/
+venv/
